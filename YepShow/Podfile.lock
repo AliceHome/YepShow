@@ -1,0 +1,16 @@
+PODS:
+  - Ruler (2.2.0)
+
+DEPENDENCIES:
+  - Ruler
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Ruler
+
+SPEC CHECKSUMS:
+  Ruler: 624e0f82bfdf24c15fb0da45fbcc170ec7a4dbff
+
+PODFILE CHECKSUM: 5bd304431aaafa30dc732fb1cbcd7135ca32de73
+
+COCOAPODS: 1.5.3

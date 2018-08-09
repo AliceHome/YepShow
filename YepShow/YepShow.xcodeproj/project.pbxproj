@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7288E4F7412A21F4BF9EEB7D /* Pods_YepShowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC145D611D3110BF41E1DA8D /* Pods_YepShowUITests.framework */; };
+		84FC22AE37EB664054EBCABE /* Pods_YepShowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510252DFAC3531A0E2EF9AC9 /* Pods_YepShowTests.framework */; };
+		D02F85ADE8D454AFAA9C4726 /* Pods_YepShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0600088AA9A5F9D43B02F /* Pods_YepShow.framework */; };
+		F12CA1AE211BF6A9005758F8 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12CA1AD211BF6A9005758F8 /* ShowViewController.swift */; };
+		F12CA1B1211BF94E005758F8 /* EdgeBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12CA1B0211BF94E005758F8 /* EdgeBorderButton.swift */; };
+		F12CA1B3211C0CFF005758F8 /* UIColor+Yep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12CA1B2211C0CFF005758F8 /* UIColor+Yep.swift */; };
+		F12D35DF211BF21D0058D780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D35DE211BF21D0058D780 /* AppDelegate.swift */; };
+		F12D35E1211BF21D0058D780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D35E0211BF21D0058D780 /* ViewController.swift */; };
+		F12D35E4211BF21D0058D780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12D35E2211BF21D0058D780 /* Main.storyboard */; };
+		F12D35E6211BF21E0058D780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12D35E5211BF21E0058D780 /* Assets.xcassets */; };
+		F12D35E9211BF21E0058D780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12D35E7211BF21E0058D780 /* LaunchScreen.storyboard */; };
+		F12D35F4211BF21E0058D780 /* YepShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D35F3211BF21E0058D780 /* YepShowTests.swift */; };
+		F12D35FF211BF21F0058D780 /* YepShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D35FE211BF21F0058D780 /* YepShowUITests.swift */; };
+		F12D360E211BF2950058D780 /* UIStoryboard+Yep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D360D211BF2950058D780 /* UIStoryboard+Yep.swift */; };
+		F12D3610211BF3770058D780 /* Show.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12D360F211BF3770058D780 /* Show.storyboard */; };
+		F1FAF004211C2AFC000FB3A8 /* ShowStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAF003211C2AFC000FB3A8 /* ShowStepViewController.swift */; };
+		F1FAF006211C2B0B000FB3A8 /* ShowStepGeniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAF005211C2B0B000FB3A8 /* ShowStepGeniusViewController.swift */; };
+		F1FAF008211C2B1A000FB3A8 /* ShowStepMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAF007211C2B1A000FB3A8 /* ShowStepMatchViewController.swift */; };
+		F1FAF00A211C2B27000FB3A8 /* ShowStepMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAF009211C2B27000FB3A8 /* ShowStepMeetViewController.swift */; };
+		F1FAF00C211C472E000FB3A8 /* String+Trans.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAF00B211C472E000FB3A8 /* String+Trans.swift */; };
+		F1FAF016211C4FA0000FB3A8 /* Show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FAF015211C4FA0000FB3A8 /* Show.xcassets */; };
+		F1FAF019211C5594000FB3A8 /* RegisterPickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FAF018211C5594000FB3A8 /* RegisterPickNameViewController.swift */; };
+		F1FAF01D211C6404000FB3A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1FAF01F211C6404000FB3A8 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12D35F0211BF21E0058D780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12D35D3211BF21D0058D780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12D35DA211BF21D0058D780;
+			remoteInfo = YepShow;
+		};
+		F12D35FB211BF21E0058D780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12D35D3211BF21D0058D780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12D35DA211BF21D0058D780;
+			remoteInfo = YepShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F62F837954019E01F0A0D6 /* Pods-YepShowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepShowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YepShowTests/Pods-YepShowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		191AE80FCD2EA4238C50AC9E /* Pods-YepShowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepShowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YepShowTests/Pods-YepShowTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F3C04227800F9117A764C06 /* Pods-YepShowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepShowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YepShowUITests/Pods-YepShowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		510252DFAC3531A0E2EF9AC9 /* Pods_YepShowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YepShowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDEA915839FC35DFE936DF3 /* Pods-YepShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-YepShow/Pods-YepShow.release.xcconfig"; sourceTree = "<group>"; };
+		AC145D611D3110BF41E1DA8D /* Pods_YepShowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YepShowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2B70ABE6889054066896BD /* Pods-YepShowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepShowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YepShowUITests/Pods-YepShowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D0600088AA9A5F9D43B02F /* Pods_YepShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YepShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF315FA2A1C448CCF4A52B37 /* Pods-YepShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YepShow/Pods-YepShow.debug.xcconfig"; sourceTree = "<group>"; };
+		F12CA1AD211BF6A9005758F8 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		F12CA1B0211BF94E005758F8 /* EdgeBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorderButton.swift; sourceTree = "<group>"; };
+		F12CA1B2211C0CFF005758F8 /* UIColor+Yep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Yep.swift"; sourceTree = "<group>"; };
+		F12D35DB211BF21D0058D780 /* YepShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YepShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12D35DE211BF21D0058D780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F12D35E0211BF21D0058D780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F12D35E3211BF21D0058D780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12D35E5211BF21E0058D780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12D35E8211BF21E0058D780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12D35EA211BF21E0058D780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12D35EF211BF21E0058D780 /* YepShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YepShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12D35F3211BF21E0058D780 /* YepShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YepShowTests.swift; sourceTree = "<group>"; };
+		F12D35F5211BF21E0058D780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12D35FA211BF21E0058D780 /* YepShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YepShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12D35FE211BF21F0058D780 /* YepShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YepShowUITests.swift; sourceTree = "<group>"; };
+		F12D3600211BF21F0058D780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12D360D211BF2950058D780 /* UIStoryboard+Yep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Yep.swift"; sourceTree = "<group>"; };
+		F12D360F211BF3770058D780 /* Show.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Show.storyboard; sourceTree = "<group>"; };
+		F1FAF003211C2AFC000FB3A8 /* ShowStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStepViewController.swift; sourceTree = "<group>"; };
+		F1FAF005211C2B0B000FB3A8 /* ShowStepGeniusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStepGeniusViewController.swift; sourceTree = "<group>"; };
+		F1FAF007211C2B1A000FB3A8 /* ShowStepMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStepMatchViewController.swift; sourceTree = "<group>"; };
+		F1FAF009211C2B27000FB3A8 /* ShowStepMeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStepMeetViewController.swift; sourceTree = "<group>"; };
+		F1FAF00B211C472E000FB3A8 /* String+Trans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trans.swift"; sourceTree = "<group>"; };
+		F1FAF00D211C48C0000FB3A8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F1FAF00E211C48C0000FB3A8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F1FAF015211C4FA0000FB3A8 /* Show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Show.xcassets; sourceTree = "<group>"; };
+		F1FAF018211C5594000FB3A8 /* RegisterPickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPickNameViewController.swift; sourceTree = "<group>"; };
+		F1FAF01E211C6404000FB3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F1FAF020211C6406000FB3A8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12D35D8211BF21D0058D780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F85ADE8D454AFAA9C4726 /* Pods_YepShow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D35EC211BF21E0058D780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FC22AE37EB664054EBCABE /* Pods_YepShowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D35F7211BF21E0058D780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7288E4F7412A21F4BF9EEB7D /* Pods_YepShowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6881357526DC754977A8B339 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF315FA2A1C448CCF4A52B37 /* Pods-YepShow.debug.xcconfig */,
+				6FDEA915839FC35DFE936DF3 /* Pods-YepShow.release.xcconfig */,
+				00F62F837954019E01F0A0D6 /* Pods-YepShowTests.debug.xcconfig */,
+				191AE80FCD2EA4238C50AC9E /* Pods-YepShowTests.release.xcconfig */,
+				AC2B70ABE6889054066896BD /* Pods-YepShowUITests.debug.xcconfig */,
+				2F3C04227800F9117A764C06 /* Pods-YepShowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4800AFE752C6B289EC1B9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0600088AA9A5F9D43B02F /* Pods_YepShow.framework */,
+				510252DFAC3531A0E2EF9AC9 /* Pods_YepShowTests.framework */,
+				AC145D611D3110BF41E1DA8D /* Pods_YepShowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F12CA1AC211BF699005758F8 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				F12CA1AD211BF6A9005758F8 /* ShowViewController.swift */,
+				F1FAF003211C2AFC000FB3A8 /* ShowStepViewController.swift */,
+				F1FAF005211C2B0B000FB3A8 /* ShowStepGeniusViewController.swift */,
+				F1FAF007211C2B1A000FB3A8 /* ShowStepMatchViewController.swift */,
+				F1FAF009211C2B27000FB3A8 /* ShowStepMeetViewController.swift */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		F12CA1AF211BF8FC005758F8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F12CA1B0211BF94E005758F8 /* EdgeBorderButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F12D35D2211BF21D0058D780 = {
+			isa = PBXGroup;
+			children = (
+				F12D35DD211BF21D0058D780 /* YepShow */,
+				F12D35F2211BF21E0058D780 /* YepShowTests */,
+				F12D35FD211BF21F0058D780 /* YepShowUITests */,
+				F12D35DC211BF21D0058D780 /* Products */,
+				6881357526DC754977A8B339 /* Pods */,
+				D4800AFE752C6B289EC1B9E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F12D35DC211BF21D0058D780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12D35DB211BF21D0058D780 /* YepShow.app */,
+				F12D35EF211BF21E0058D780 /* YepShowTests.xctest */,
+				F12D35FA211BF21E0058D780 /* YepShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12D35DD211BF21D0058D780 /* YepShow */ = {
+			isa = PBXGroup;
+			children = (
+				F1FAF017211C5577000FB3A8 /* Register */,
+				F12CA1AF211BF8FC005758F8 /* Buttons */,
+				F12CA1AC211BF699005758F8 /* Show */,
+				F12D360C211BF25E0058D780 /* Extensions */,
+				F12D35DE211BF21D0058D780 /* AppDelegate.swift */,
+				F12D35E0211BF21D0058D780 /* ViewController.swift */,
+				F12D35E2211BF21D0058D780 /* Main.storyboard */,
+				F12D360F211BF3770058D780 /* Show.storyboard */,
+				F12D35E5211BF21E0058D780 /* Assets.xcassets */,
+				F1FAF015211C4FA0000FB3A8 /* Show.xcassets */,
+				F12D35E7211BF21E0058D780 /* LaunchScreen.storyboard */,
+				F12D35EA211BF21E0058D780 /* Info.plist */,
+				F1FAF01F211C6404000FB3A8 /* Localizable.strings */,
+			);
+			path = YepShow;
+			sourceTree = "<group>";
+		};
+		F12D35F2211BF21E0058D780 /* YepShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12D35F3211BF21E0058D780 /* YepShowTests.swift */,
+				F12D35F5211BF21E0058D780 /* Info.plist */,
+			);
+			path = YepShowTests;
+			sourceTree = "<group>";
+		};
+		F12D35FD211BF21F0058D780 /* YepShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F12D35FE211BF21F0058D780 /* YepShowUITests.swift */,
+				F12D3600211BF21F0058D780 /* Info.plist */,
+			);
+			path = YepShowUITests;
+			sourceTree = "<group>";
+		};
+		F12D360C211BF25E0058D780 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F12D360D211BF2950058D780 /* UIStoryboard+Yep.swift */,
+				F12CA1B2211C0CFF005758F8 /* UIColor+Yep.swift */,
+				F1FAF00B211C472E000FB3A8 /* String+Trans.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1FAF017211C5577000FB3A8 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F1FAF018211C5594000FB3A8 /* RegisterPickNameViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12D35DA211BF21D0058D780 /* YepShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12D3603211BF21F0058D780 /* Build configuration list for PBXNativeTarget "YepShow" */;
+			buildPhases = (
+				80CDA2A85182B4F5D21C2BD1 /* [CP] Check Pods Manifest.lock */,
+				F12D35D7211BF21D0058D780 /* Sources */,
+				F12D35D8211BF21D0058D780 /* Frameworks */,
+				F12D35D9211BF21D0058D780 /* Resources */,
+				2BDCCCA437F0CF78D8651D8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YepShow;
+			productName = YepShow;
+			productReference = F12D35DB211BF21D0058D780 /* YepShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12D35EE211BF21E0058D780 /* YepShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12D3606211BF21F0058D780 /* Build configuration list for PBXNativeTarget "YepShowTests" */;
+			buildPhases = (
+				5AD2853DC3A889D0A139A9FF /* [CP] Check Pods Manifest.lock */,
+				F12D35EB211BF21E0058D780 /* Sources */,
+				F12D35EC211BF21E0058D780 /* Frameworks */,
+				F12D35ED211BF21E0058D780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12D35F1211BF21E0058D780 /* PBXTargetDependency */,
+			);
+			name = YepShowTests;
+			productName = YepShowTests;
+			productReference = F12D35EF211BF21E0058D780 /* YepShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F12D35F9211BF21E0058D780 /* YepShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12D3609211BF21F0058D780 /* Build configuration list for PBXNativeTarget "YepShowUITests" */;
+			buildPhases = (
+				12CD416E5BD9F6658CAD775C /* [CP] Check Pods Manifest.lock */,
+				F12D35F6211BF21E0058D780 /* Sources */,
+				F12D35F7211BF21E0058D780 /* Frameworks */,
+				F12D35F8211BF21E0058D780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12D35FC211BF21E0058D780 /* PBXTargetDependency */,
+			);
+			name = YepShowUITests;
+			productName = YepShowUITests;
+			productReference = F12D35FA211BF21E0058D780 /* YepShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12D35D3211BF21D0058D780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Rey;
+				TargetAttributes = {
+					F12D35DA211BF21D0058D780 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F12D35EE211BF21E0058D780 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F12D35DA211BF21D0058D780;
+					};
+					F12D35F9211BF21E0058D780 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F12D35DA211BF21D0058D780;
+					};
+				};
+			};
+			buildConfigurationList = F12D35D6211BF21D0058D780 /* Build configuration list for PBXProject "YepShow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = F12D35D2211BF21D0058D780;
+			productRefGroup = F12D35DC211BF21D0058D780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12D35DA211BF21D0058D780 /* YepShow */,
+				F12D35EE211BF21E0058D780 /* YepShowTests */,
+				F12D35F9211BF21E0058D780 /* YepShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12D35D9211BF21D0058D780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D35E9211BF21E0058D780 /* LaunchScreen.storyboard in Resources */,
+				F1FAF01D211C6404000FB3A8 /* Localizable.strings in Resources */,
+				F12D35E6211BF21E0058D780 /* Assets.xcassets in Resources */,
+				F12D35E4211BF21D0058D780 /* Main.storyboard in Resources */,
+				F1FAF016211C4FA0000FB3A8 /* Show.xcassets in Resources */,
+				F12D3610211BF3770058D780 /* Show.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D35ED211BF21E0058D780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D35F8211BF21E0058D780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CD416E5BD9F6658CAD775C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepShowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDCCCA437F0CF78D8651D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YepShow/Pods-YepShow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Ruler/Ruler.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ruler.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YepShow/Pods-YepShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD2853DC3A889D0A139A9FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepShowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80CDA2A85182B4F5D21C2BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12D35D7211BF21D0058D780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FAF006211C2B0B000FB3A8 /* ShowStepGeniusViewController.swift in Sources */,
+				F12CA1B3211C0CFF005758F8 /* UIColor+Yep.swift in Sources */,
+				F1FAF00A211C2B27000FB3A8 /* ShowStepMeetViewController.swift in Sources */,
+				F12D35E1211BF21D0058D780 /* ViewController.swift in Sources */,
+				F12CA1AE211BF6A9005758F8 /* ShowViewController.swift in Sources */,
+				F1FAF008211C2B1A000FB3A8 /* ShowStepMatchViewController.swift in Sources */,
+				F12D360E211BF2950058D780 /* UIStoryboard+Yep.swift in Sources */,
+				F1FAF019211C5594000FB3A8 /* RegisterPickNameViewController.swift in Sources */,
+				F12D35DF211BF21D0058D780 /* AppDelegate.swift in Sources */,
+				F1FAF004211C2AFC000FB3A8 /* ShowStepViewController.swift in Sources */,
+				F12CA1B1211BF94E005758F8 /* EdgeBorderButton.swift in Sources */,
+				F1FAF00C211C472E000FB3A8 /* String+Trans.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D35EB211BF21E0058D780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D35F4211BF21E0058D780 /* YepShowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D35F6211BF21E0058D780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D35FF211BF21F0058D780 /* YepShowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12D35F1211BF21E0058D780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12D35DA211BF21D0058D780 /* YepShow */;
+			targetProxy = F12D35F0211BF21E0058D780 /* PBXContainerItemProxy */;
+		};
+		F12D35FC211BF21E0058D780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12D35DA211BF21D0058D780 /* YepShow */;
+			targetProxy = F12D35FB211BF21E0058D780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F12D35E2211BF21D0058D780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12D35E3211BF21D0058D780 /* Base */,
+				F1FAF00D211C48C0000FB3A8 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12D35E7211BF21E0058D780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12D35E8211BF21E0058D780 /* Base */,
+				F1FAF00E211C48C0000FB3A8 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FAF01F211C6404000FB3A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FAF01E211C6404000FB3A8 /* en */,
+				F1FAF020211C6406000FB3A8 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12D3601211BF21F0058D780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F12D3602211BF21F0058D780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12D3604211BF21F0058D780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF315FA2A1C448CCF4A52B37 /* Pods-YepShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YepShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rey.YepShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F12D3605211BF21F0058D780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDEA915839FC35DFE936DF3 /* Pods-YepShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YepShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rey.YepShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F12D3607211BF21F0058D780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F62F837954019E01F0A0D6 /* Pods-YepShowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YepShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rey.YepShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YepShow.app/YepShow";
+			};
+			name = Debug;
+		};
+		F12D3608211BF21F0058D780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191AE80FCD2EA4238C50AC9E /* Pods-YepShowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YepShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rey.YepShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YepShow.app/YepShow";
+			};
+			name = Release;
+		};
+		F12D360A211BF21F0058D780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2B70ABE6889054066896BD /* Pods-YepShowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YepShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rey.YepShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YepShow;
+			};
+			name = Debug;
+		};
+		F12D360B211BF21F0058D780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3C04227800F9117A764C06 /* Pods-YepShowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YepShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rey.YepShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YepShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12D35D6211BF21D0058D780 /* Build configuration list for PBXProject "YepShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D3601211BF21F0058D780 /* Debug */,
+				F12D3602211BF21F0058D780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12D3603211BF21F0058D780 /* Build configuration list for PBXNativeTarget "YepShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D3604211BF21F0058D780 /* Debug */,
+				F12D3605211BF21F0058D780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12D3606211BF21F0058D780 /* Build configuration list for PBXNativeTarget "YepShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D3607211BF21F0058D780 /* Debug */,
+				F12D3608211BF21F0058D780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12D3609211BF21F0058D780 /* Build configuration list for PBXNativeTarget "YepShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D360A211BF21F0058D780 /* Debug */,
+				F12D360B211BF21F0058D780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12D35D3211BF21D0058D780 /* Project object */;
+}
